@@ -117,5 +117,12 @@
     "repository": "HalkazeMUGEN/tetris_HOLD-DROP",
     "asset": "tetris_HOLD+DROP.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-audiospectrum-c6717f7df063",
+    "name": "オーディオスペクトラム表示テンプレ(?)",
+    "repository": "HalkazeMUGEN/AudioSpectrum",
+    "asset": "AudioSpectrum.zip",
+    "category": "other"
   }
 ]
