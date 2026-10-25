@@ -159,5 +159,12 @@
     "repository": "HalkazeMUGEN/DTCconverter",
     "asset": "DTCconverter.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-makecode-4ca-990b9258927a",
+    "name": "4CA式コード実行ステコン作成補助ツール＋",
+    "repository": "HalkazeMUGEN/MakeCode_4CA-",
+    "asset": "MakeCode_4CA+.zip",
+    "category": "other"
   }
 ]
