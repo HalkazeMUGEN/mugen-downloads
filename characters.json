@@ -5,5 +5,12 @@
     "repository": "HalkazeMUGEN/-",
     "asset": "@.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-kfm-test-1-1b-ace-d1a6a417bd4a",
+    "name": "kfm_test-1.1b-ACE",
+    "repository": "HalkazeMUGEN/kfm_test-1.1b-ACE",
+    "asset": "kfm_test-1.1b-ACE.zip",
+    "category": "characters"
   }
 ]
