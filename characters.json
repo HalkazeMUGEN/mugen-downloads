@@ -89,5 +89,12 @@
     "repository": "HalkazeMUGEN/Yin-Yang_Sphere",
     "asset": "Yin-Yang_Sphere.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-suwako-sama-6f4a8253df7a",
+    "name": "L諏訪子様",
+    "repository": "HalkazeMUGEN/_suwako-sama",
+    "asset": "_suwako-sama.zip",
+    "category": "characters"
   }
 ]
