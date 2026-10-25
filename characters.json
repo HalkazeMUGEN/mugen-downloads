@@ -54,5 +54,12 @@
     "repository": "HalkazeMUGEN/Anti-RebootKFM",
     "asset": "Anti-RebootKFM.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-rebootkfm-6ed641b6bafc",
+    "name": "RebootKFM",
+    "repository": "HalkazeMUGEN/RebootKFM",
+    "asset": "RebootKFM.zip",
+    "category": "characters"
   }
 ]
