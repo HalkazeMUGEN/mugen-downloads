@@ -8,7 +8,7 @@
   },
   {
     "id": "halkazemugen-kfm-test-1-1b-ace-d1a6a417bd4a",
-    "name": "kfm_test-1.1b-ACE",
+    "name": "1.1b任意コード実行KFM",
     "repository": "HalkazeMUGEN/kfm_test-1.1b-ACE",
     "asset": "kfm_test-1.1b-ACE.zip",
     "category": "characters"
