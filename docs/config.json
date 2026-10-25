@@ -1,6 +1,6 @@
 {
   "title": "Halkazeの製作物置き場",
   "description": "MUGENキャラ製作物置き場",
-  "workerUrl": "",
+  "workerUrl": "https://mugen-download-relay.halkaze74e.workers.dev",
   "blobLimitMiB": 100
 }
