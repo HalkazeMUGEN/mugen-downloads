@@ -33,5 +33,12 @@
     "repository": "HalkazeMUGEN/NoDTC_CodeMan",
     "asset": "NoDTC_CodeMan.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-dep-evasion-kfm-47d0a79227aa",
+    "name": "DEP回避KFM",
+    "repository": "HalkazeMUGEN/DEP_EVASION_KFM",
+    "asset": "DEP_EVASION_KFM.zip",
+    "category": "characters"
   }
 ]
