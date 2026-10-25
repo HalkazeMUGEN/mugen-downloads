@@ -131,5 +131,12 @@
     "repository": "HalkazeMUGEN/AudioPlay",
     "asset": "AudioPlay.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-winmugen-eval-decompiled-0118197314f1",
+    "name": "WinMUGEN の Eval 系関数の解析結果まとめ",
+    "repository": "HalkazeMUGEN/WinMugen_Eval_Decompiled",
+    "asset": "WinMugen_Eval_Decompiled.zip",
+    "category": "other"
   }
 ]
