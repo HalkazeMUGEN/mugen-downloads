@@ -82,5 +82,12 @@
     "repository": "HalkazeMUGEN/Obliitae-Umbella",
     "asset": "Obliitae.Umbella.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-yin-yang-sphere-3ea6b23b757c",
+    "name": "陰陽玉",
+    "repository": "HalkazeMUGEN/Yin-Yang_Sphere",
+    "asset": "Yin-Yang_Sphere.zip",
+    "category": "characters"
   }
 ]
