@@ -103,5 +103,12 @@
     "repository": "HalkazeMUGEN/MISHAGUJI-SAMA",
     "asset": "MISHAGUJI-SAMA.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-24bit-color-pcx-sample-f02beb16092f",
+    "name": "フルカラーPCX サンプル画像",
+    "repository": "HalkazeMUGEN/24bit-color-PCX-Sample",
+    "asset": "24bit.color.PCX.Sample.zip",
+    "category": "other"
   }
 ]
