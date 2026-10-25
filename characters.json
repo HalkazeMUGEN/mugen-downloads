@@ -96,5 +96,12 @@
     "repository": "HalkazeMUGEN/_suwako-sama",
     "asset": "_suwako-sama.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-mishaguji-sama-942a8694aa01",
+    "name": "ミシャグジ様",
+    "repository": "HalkazeMUGEN/MISHAGUJI-SAMA",
+    "asset": "MISHAGUJI-SAMA.zip",
+    "category": "characters"
   }
 ]
