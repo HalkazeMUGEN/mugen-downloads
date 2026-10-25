@@ -152,5 +152,12 @@
     "repository": "HalkazeMUGEN/Remove-NoBarDisplay-Patch",
     "asset": "Remove.NoBarDisplay.Patch.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-dtcconverter-cd6d69e45e96",
+    "name": "DTCconverter",
+    "repository": "HalkazeMUGEN/DTCconverter",
+    "asset": "DTCconverter.zip",
+    "category": "other"
   }
 ]
