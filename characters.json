@@ -145,5 +145,12 @@
     "repository": "HalkazeMUGEN/MUGEN-Damage-Calculator",
     "asset": "MUGEN.Damage.Calculator.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-remove-nobardisplay-patch-45c12b27f3e4",
+    "name": "Remove NoBarDisplay Patch",
+    "repository": "HalkazeMUGEN/Remove-NoBarDisplay-Patch",
+    "asset": "Remove.NoBarDisplay.Patch.zip",
+    "category": "other"
   }
 ]
