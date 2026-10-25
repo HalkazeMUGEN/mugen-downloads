@@ -124,5 +124,12 @@
     "repository": "HalkazeMUGEN/AudioSpectrum",
     "asset": "AudioSpectrum.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-audioplay-28aef10312bb",
+    "name": "AudioPlay",
+    "repository": "HalkazeMUGEN/AudioPlay",
+    "asset": "AudioPlay.zip",
+    "category": "other"
   }
 ]
