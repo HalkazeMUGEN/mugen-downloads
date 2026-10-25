@@ -26,5 +26,12 @@
     "repository": "HalkazeMUGEN/kfm_kill_TEST",
     "asset": "kfm_kill_TEST.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-nodtc-codeman-aceeeea72671",
+    "name": "NoDTC_CodeMan",
+    "repository": "HalkazeMUGEN/NoDTC_CodeMan",
+    "asset": "NoDTC_CodeMan.zip",
+    "category": "characters"
   }
 ]
