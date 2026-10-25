@@ -75,5 +75,12 @@
     "repository": "HalkazeMUGEN/EX_DEFENCE_CHECKER",
     "asset": "EX_DEFENCE_CHECKER.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-obliitae-umbella-ad1c2821ff78",
+    "name": "忘れ傘",
+    "repository": "HalkazeMUGEN/Obliitae-Umbella",
+    "asset": "Obliitae.Umbella.zip",
+    "category": "characters"
   }
 ]
