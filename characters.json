@@ -61,5 +61,12 @@
     "repository": "HalkazeMUGEN/RebootKFM",
     "asset": "RebootKFM.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-rebootkfm-ex-5b75cfd947cf",
+    "name": "RebootKFM_EX",
+    "repository": "HalkazeMUGEN/RebootKFM_EX",
+    "asset": "RebootKFM_EX.zip",
+    "category": "characters"
   }
 ]
