@@ -166,5 +166,12 @@
     "repository": "HalkazeMUGEN/MakeCode_4CA-",
     "asset": "MakeCode_4CA+.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-zlib-winmugen-specialized-ed6e653ee30d",
+    "name": "zlib - WinMUGEN specialized",
+    "repository": "HalkazeMUGEN/zlib-WinMUGEN-specialized",
+    "asset": "zlib-WinMUGEN-specialized.zip",
+    "category": "other"
   }
 ]
