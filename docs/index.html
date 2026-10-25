@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self' https:; img-src 'self' data:; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="HalkazeのMUGENキャラ製作物置き場">
+  <title>Halkazeの製作物置き場</title>
+  <script src="./theme.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#files">ファイル一覧へ</a>
+  <main>
+    <header>
+      <div class="header-tools">
+        <h1 id="title">Halkazeの製作物置き場</h1>
+        <div class="theme-control">
+          <button id="theme" class="theme-toggle" type="button" aria-label="テーマを変更（現在: 自動）" title="テーマを変更（現在: 自動）" aria-expanded="false" aria-controls="theme-menu">
+            <svg data-theme-icon="auto" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M12 4a8 8 0 0 1 0 16Z" fill="currentColor"/>
+            </svg>
+            <svg data-theme-icon="light" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true" focusable="false" hidden>
+              <circle cx="12" cy="12" r="4"/>
+              <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4L19 5"/>
+            </svg>
+            <svg data-theme-icon="dark" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true" focusable="false" hidden>
+              <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z"/>
+            </svg>
+          </button>
+          <div id="theme-menu" class="theme-menu" role="group" aria-label="テーマ" hidden>
+            <button type="button" data-theme-choice="auto" aria-pressed="true">自動（ブラウザ設定）</button>
+            <button type="button" data-theme-choice="light" aria-pressed="false">ライト</button>
+            <button type="button" data-theme-choice="dark" aria-pressed="false">ダーク</button>
+          </div>
+        </div>
+      </div>
+      <h2 id="description" class="description-heading">MUGENキャラ製作物置き場</h2>
+      <div class="header-details">
+        <p><time datetime="2026-10-25">2026/10/25</time> 利用開始</p>
+        <p><a href="https://halkaze.fc2.net/blog-entry-1.html">キャラ目録</a></p>
+      </div>
+    </header>
+    <div class="category-tabs" role="tablist" aria-label="配布ファイルの分類">
+      <button id="tab-characters" type="button" role="tab" data-category="characters" aria-selected="true" aria-controls="download-list">キャラクター <span id="count-characters" class="category-count">0</span></button>
+      <button id="tab-other" type="button" role="tab" data-category="other" aria-selected="false" aria-controls="download-list" tabindex="-1">その他 <span id="count-other" class="category-count">0</span></button>
+    </div>
+    <section id="download-list" class="panel" role="tabpanel" aria-labelledby="tab-characters">
+      <div class="toolbar">
+        <label class="search">この一覧を検索<input id="search" type="search" placeholder="表示名・ファイル名" autocomplete="off"></label>
+        <p id="count" role="status">一覧を読み込んでいます…</p>
+      </div>
+      <div class="selection-tools">
+        <button id="select-visible" type="button">表示中をすべて選択</button>
+        <button id="clear-visible" type="button">表示中の選択を解除</button>
+        <button id="clear-all" type="button">この一覧の選択をすべて解除</button>
+      </div>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="ファイル一覧。狭い画面では横にスクロールできます">
+        <table id="files">
+          <caption id="list-caption" class="sr-only">キャラクターの配布ファイル一覧。見出しのボタンで並べ替えられます。</caption>
+          <thead><tr>
+            <th scope="col"><input id="select-all" type="checkbox" aria-label="表示中のファイルをすべて選択"></th>
+            <th scope="col" aria-sort="none"><button data-sort="filename">ファイル名 <span aria-hidden="true">↕</span></button></th>
+            <th scope="col">バージョン</th>
+            <th scope="col" aria-sort="none"><button data-sort="size">サイズ <span aria-hidden="true">↕</span></button></th>
+            <th scope="col" aria-sort="descending"><button data-sort="updatedAt">更新日 <span aria-hidden="true">↓</span></button></th>
+            <th scope="col"><span class="sr-only">ダウンロード</span></th>
+          </tr></thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <p id="empty" class="empty" hidden></p>
+      <div class="bundle-bar">
+        <div><strong id="selection" role="status">0件を選択 · 0 B</strong><small id="hidden-selection"></small></div>
+        <button id="download" class="primary" disabled>選択したファイルをまとめてDL</button>
+      </div>
+    </section>
+    <section class="status-panel" aria-label="ダウンロード状況">
+      <p id="save-hint"></p>
+      <p id="status" role="status" aria-live="polite"></p>
+      <div id="progress-box" hidden><progress id="progress" aria-label="取得済みファイル数" value="0" max="1"></progress><button id="cancel">キャンセル</button></div>
+      <a id="save-blob" class="save-link" hidden download="SelectedCharacters.zip">生成したZIPを保存</a>
+      <p id="error" role="alert" hidden></p>
+      <p id="warnings" hidden></p>
+    </section>
+    <footer><p id="updated">一覧更新: —</p><p>過去のバージョンは各行の「Older versions」からご覧いただけます。</p><p>一括DLでは各ZIPを元の内容のまま格納します。個別DLが開けない場合はファイル名のリンク先で公開状況をご確認ください。</p><a href="./THIRD_PARTY_NOTICES.txt">使用ライブラリ</a></footer>
+    <noscript>ファイル一覧の表示にはJavaScriptを有効にしてください。</noscript>
+  </main>
+</body>
+</html>
