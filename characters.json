@@ -138,5 +138,12 @@
     "repository": "HalkazeMUGEN/WinMugen_Eval_Decompiled",
     "asset": "WinMugen_Eval_Decompiled.zip",
     "category": "other"
+  },
+  {
+    "id": "halkazemugen-mugen-damage-calculator-d3289b97bb1e",
+    "name": "MUGEN Damage Calculator",
+    "repository": "HalkazeMUGEN/MUGEN-Damage-Calculator",
+    "asset": "MUGEN.Damage.Calculator.zip",
+    "category": "other"
   }
 ]
