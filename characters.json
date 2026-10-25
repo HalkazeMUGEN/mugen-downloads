@@ -12,5 +12,12 @@
     "repository": "HalkazeMUGEN/kfm_test-1.1b-ACE",
     "asset": "kfm_test-1.1b-ACE.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-kfm-threadkill-test-325d85a7cfb4",
+    "name": "超直死対策搭載KFM",
+    "repository": "HalkazeMUGEN/kfm_threadkill_TEST",
+    "asset": "kfm_threadkill_TEST.zip",
+    "category": "characters"
   }
 ]
