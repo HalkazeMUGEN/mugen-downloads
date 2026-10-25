@@ -40,5 +40,12 @@
     "repository": "HalkazeMUGEN/DEP_EVASION_KFM",
     "asset": "DEP_EVASION_KFM.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-replacementkfm-0d9953270b5a",
+    "name": "ReplacementKFM",
+    "repository": "HalkazeMUGEN/ReplacementKFM",
+    "asset": "ReplacementKFM.zip",
+    "category": "characters"
   }
 ]
