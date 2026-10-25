@@ -68,5 +68,12 @@
     "repository": "HalkazeMUGEN/RebootKFM_EX",
     "asset": "RebootKFM_EX.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-ex-defence-checker-bed4a18baeb0",
+    "name": "隔離耐性チェッカー",
+    "repository": "HalkazeMUGEN/EX_DEFENCE_CHECKER",
+    "asset": "EX_DEFENCE_CHECKER.zip",
+    "category": "characters"
   }
 ]
