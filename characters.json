@@ -19,5 +19,12 @@
     "repository": "HalkazeMUGEN/kfm_threadkill_TEST",
     "asset": "kfm_threadkill_TEST.zip",
     "category": "characters"
+  },
+  {
+    "id": "halkazemugen-kfm-kill-test-5120747159f5",
+    "name": "超直死搭載KFM",
+    "repository": "HalkazeMUGEN/kfm_kill_TEST",
+    "asset": "kfm_kill_TEST.zip",
+    "category": "characters"
   }
 ]
